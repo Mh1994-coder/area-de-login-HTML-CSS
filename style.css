@@ -1,0 +1,88 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: arial;
+    background-image: url("./ASSETS/1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mae {
+    background-color:rgba(0, 0, 255, 0);
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    backdrop-filter: blur(10px);
+    box-shadow: #0000008c 2px 2px 15px;
+    padding: 20px;
+    margin: 20px;
+    border: solid 1px #bdff801a ;
+    box-sizing: border-box;
+}
+.caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+}
+img {
+    width: 100px;
+    height: 100px;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input {
+    margin: 15px;
+    background-color: transparent;
+    border: 1px solid #677e72;
+    padding: 10px;
+    width: 300px;
+}
+label {
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: black 1px 1px 2px;
+    color:#eaefee;
+}
+button {
+    width: 75px;
+    height: 25px;
+    background-color: transparent;
+    color:#eaefee;
+    font-size: 15px;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+.botoes{
+    display:flex;
+    justify-content:space-around;
+    width: 500px;
+    align-items: center;
+}
+a {
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: black 1px 1px 2px;
+    color:#ffffff;
+    text-decoration: none;
+}
+a:hover {
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: black 1px 1px 2px;
+    color:#85a1a1;
+    text-decoration: underline;
+}
